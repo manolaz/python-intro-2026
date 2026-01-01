@@ -162,9 +162,9 @@ def merge_files(file1, file2, output_file):
 
 def create_log():
     with open("app.log", "w") as file:
-        file.write("2024-01-01 10:00:00 - INFO - Application started\n")
-        file.write("2024-01-01 10:05:00 - WARNING - Low memory\n")
-        file.write("2024-01-01 10:10:00 - ERROR - Connection failed\n")
+        file.write("2026-01-01 10:00:00 - INFO - Application started\n")
+        file.write("2026-01-01 10:05:00 - WARNING - Low memory\n")
+        file.write("2026-01-01 10:10:00 - ERROR - Connection failed\n")
 
 def parse_log(filename):
     try:
