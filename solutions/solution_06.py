@@ -5,7 +5,6 @@ Solutions for Exercise 6: File Operations
 
 import json
 import csv
-from datetime import datetime
 
 # Exercise 6.1: Write to file
 with open("output.txt", "w") as file:
