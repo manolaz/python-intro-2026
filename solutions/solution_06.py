@@ -5,6 +5,7 @@ Solutions for Exercise 6: File Operations
 
 import json
 import csv
+from datetime import datetime
 
 # Exercise 6.1: Write to file
 with open("output.txt", "w") as file:
@@ -159,7 +160,6 @@ def merge_files(file1, file2, output_file):
         print("One or more files not found")
 
 # Exercise 6.16: Log file parser
-from datetime import datetime
 
 def create_log():
     with open("app.log", "w") as file:
