@@ -1,0 +1,8 @@
+# Python Introduction Course - Requirements
+# No external dependencies required for the core lessons
+# Python 3.6+ is recommended
+
+# Optional: For enhanced learning experience
+# pytest==7.4.3  # For running tests (if you create your own)
+# black==23.12.1  # For code formatting
+# flake8==6.1.0  # For code linting
